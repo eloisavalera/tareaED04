@@ -21,6 +21,7 @@ public class Main {
 
     private static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
         try {
+            System.out.println("Retirada de dinero de la cuenta");
             cuenta1.retirar(2300);
         } catch (Exception e) {
             System.out.print("Fallo al retirar");
